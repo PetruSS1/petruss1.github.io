@@ -24,11 +24,13 @@ body {
 }
 
 .logo {
-  color: #ffffff;
+  color: transparent;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-
+  background-image: linear-gradient(to right, #00FFFF 0%, #4B0082 50%, #FF1493 100%);
+  -webkit-background-clip: text; / For Safari */
+  background-clip: text;
 }
 
 .nav-links {
